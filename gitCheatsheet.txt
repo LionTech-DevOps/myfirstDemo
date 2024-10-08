@@ -1,0 +1,20 @@
+git init [initializes a git project]
+git config --global user.name "name" [ configures and sets the current user making the changes]
+git config --global user.email "your email address"[email of user]
+git status [gives status of tracking or modifed or not]
+git add filename [adds a file for git tracking]
+git add . [adds all files or folders in that current directory for tracking]
+
+git commit -m "" [This is a message used as a remember tag for the changes you have done]
+e.g git commit -m "just added banner color"
+
+git remote add alias repos'Url   // alias is simply a shortway of calling your repourl without typing the long url
+
+e.g git remote add class29 httpUrl
+
+git remote -v [ list all remotes attached to that local git project]
+
+git push used to push committed changes
+git pull used to pull latest version of project from source code hoster(e.g github)
+
+git log [history of all your commits]
